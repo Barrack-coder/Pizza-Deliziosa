@@ -265,3 +265,16 @@ text input {
 .thre {
     color: antiquewhite;
 }
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: calibri;
+}
