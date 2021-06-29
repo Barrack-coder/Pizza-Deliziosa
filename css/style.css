@@ -255,3 +255,13 @@ text input {
 .piz p {
     color: antiquewhite;
 }
+
+.three {
+    font-size: 2rem;
+    color: rgb(134, 251, 197);
+    font-family: 'Berkshire swash'cursive;
+}
+
+.thre {
+    color: antiquewhite;
+}

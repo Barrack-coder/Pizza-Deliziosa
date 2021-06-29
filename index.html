@@ -121,10 +121,11 @@
                     <option label="Pepperoni" value="250">Pepperoni</option>
                 </select>
             </div>
-            <div class="col-md-4 col-sm-12 piz"></div>
-            <h3 class="three">Crust</h3>
-            <br>
-            <p class="three">Get yamy pizza from </p>
+            <div class="col-md-4 col-sm-12 pizz">
+                <h3 class="three">Crust</h3>
+                <br>
+                <p class="thre">Get yamy pizza from </p>
+            </div>
             <select class="form-control crust">
                     <option label="Crispy" value="200">Stuffed</option>
                     <option label="Flatbread" value="150">Flatberad</option>
@@ -133,6 +134,45 @@
                     <option label="Gluten-free" value="300">Gluten-free</option>
                     <option label="Stuffed" value="500">Stuffed</option>
                 </select>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Order.No</th>
+                <th scope="col">Pizza Size</th>
+                <th scope="col">Toppings</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody id="pizza">
+            <tr>
+                <th scope="row">1</th>
+                <td id="size"></td>
+                <td id="toppings"></td>
+                <th id="crust">
+                    </td>
+                    <td id="total"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="add-buttons">
+        <div class="text-center">
+            <button class="btn btn-dark add-pizza" type="submit">Add Another</button>
+            <div class="add-info">
+
+                <h5>Would you like delivery for an additional 150 ?</h5>
+                <button class="btn btn-dark yes" type="submit">Yes</button>
+                <button class="btn btn-dark" type="submit">No</button>
+                <h4>Your order has been received successfully ! :<br> <span></span></h4>
+                <div class="loc text-center">
+                    <input type="text" size="30" placeholder="enter your location" required />
+                    <button class="btn btn-dark complete" type="submit">Complete</button>
+                </div>
+            </div>
+            <br>
+
         </div>
     </div>
 
