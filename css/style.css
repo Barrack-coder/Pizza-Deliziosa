@@ -58,3 +58,136 @@ a {
     display: flex;
     align-items: center;
 }
+
+.first {
+    width: 540px;
+    height: 320px;
+    margin: 10px;
+    background-image: url("../images/photo-1565299624946-b28f40a0ae38.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first p {
+    color: white;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.new p:nth-child(1) {
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+}
+
+.new p:nth-child(2) {
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.first button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(3, 104, 104);
+    text-align: center;
+    font-family: calibri;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.search,
+.order {
+    width: 540px;
+    height: 150px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-flex {
+    display: flex;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .search {
+    background-color: rgb(3, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* 
+.search p {
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 0px;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 5);
+    margin-top: 10px;
+    
+} */
+
+.text {
+    border-radius: 20px;
+    width: 300pxpx;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+text input {
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    align-items: center;
+    outline: none;
+}
+
+.text button {
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: chocolate;
+    font-family: calibri;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #CDCACA;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order a {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: calibri;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
