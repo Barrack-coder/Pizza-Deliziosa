@@ -191,3 +191,57 @@ text input {
     font-family: calibri;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
+
+.second-row {
+    display: flex;
+}
+
+.third-row {
+    background-color: rgb(3, 82, 82);
+    width: 40%;
+}
+
+.food-1,
+.food-2,
+.food-3 {
+    width: 354px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 5%;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food-1,
+.food-2,
+.food-3 {
+    font-size: 2rem;
+    color: rgb(0, 245, 131);
+    font-family: calibri;
+}
+
+.food-1 {
+    background-image: url("../images/photo-1594007654729-407eedc4be65.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-2 {
+    background-image: url("../images/pexels-photo-1049620.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-3 {
+    background-image: url("../images/photo-1584365685547-9a5fb6f3a70c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* .name:hover img {
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+} */
