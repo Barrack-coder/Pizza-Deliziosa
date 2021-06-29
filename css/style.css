@@ -278,3 +278,18 @@ footer {
 footer p {
     font-family: calibri;
 }
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+
+footer p:nth-child(2) {
+    width: 600px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #7e7d7d;
+    text-align: center;
+}
