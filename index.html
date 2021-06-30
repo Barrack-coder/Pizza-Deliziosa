@@ -158,29 +158,46 @@
             </tr>
         </tbody>
     </table>
-    <div class="add-buttons">
-        <div class="text-center">
-            <button class="btn btn-dark" id="add-pizza" type="submit">Add Another</button>
-            <div class="add-info">
 
-                <h5>Would you like delivery for an additional 150 ?</h5>
-                <button class="btn btn-dark yes" type="submit">Yes</button>
-                <button class="btn btn-dark" type="submit">No</button>
-                <h4>Your order has been received successfully ! :<br> <span></span></h4>
-                <div class="loc text-center">
-                    <input type="text" size="30" placeholder="enter your location" required />
-                    <button class="btn btn-dark complete" type="submit">Complete</button>
-                </div>
-            </div>
-            <br>
+
+    <div class="form group">
+
+        <label for="numaber">How many pizza would you like?</label>
+        <input required id="pizzaNumber" type="number" placeholder="Enter the number of pizzas" class="form-control" id="number" />
+        <div class="make"><button class="btn btn-primary get" id="order" type="submit">ORDER</button>
+        </div>
+        <div id="check-out"><button class="btn btn-primary check" type="check">CHECK</button></div>
+        <div class="pay">
+            <h5 class="ph">Would you like delivery for an additional 150 ?</h5>
+            <button class="btn btn-dark" id="yes" type="submit">Yes</button>
+            <button class="btn btn-dark" id="no" type="submit">No</button>
+
 
         </div>
+        <div class="delivery-form">
+            <h4 class="ph">Your order has been received successfully ! :<br> <span></span></h4>
+            <div class="loc text-center">
+                <input type="text" size="30" placeholder="enter your location" required />
+                <button class="btn btn-dark complete" type="submit">Complete</button>
+
+            </div>
+        </div>
+        <div class="alert">
+
+            <p id="pizza-total"></p>
+        </div>
+        <div class="alert-pizza">
+            <p id="thanks"></p>
+        </div>
+        <br>
+
+
     </div>
     <!--footer----------------------------->
     <footer>
 
         <p>GET YOUR FAVOURITE PIZZA AT AFFODABLE PRICE</p>
-        <!--social--------------------------->
+        <!--attached social bar--------------------------->
         <div class="social-icons">
 
             <a href="#"><i class="fa fa-facebook-f"></i></a>
@@ -192,8 +209,10 @@
         <p class="copyright">copyright by Barrack</p>
         &reg;Barrack Juma &copy;2021
     </footer>
-    <!--attached social bar--------------------------->
+
     <script src="./js/main.js"></script>
+
+
 
 </body>
 
