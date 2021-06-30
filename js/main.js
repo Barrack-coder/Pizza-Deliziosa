@@ -73,7 +73,7 @@ $(document).ready(function() {
         $("#yes").click(function() {
             $(".alert-pizza").show();
             $(".delivery-form").hide();
-            $("#thanks").html("Thanks you for shopping with us sh" + total + " we will deliver right away");
+            $("#thanks").html("Thanks you for shopping with us your total amount is sh" + total + " we will deliver right away");
         });
 
         $(".btn.complete").click(function() {

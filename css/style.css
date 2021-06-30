@@ -278,6 +278,11 @@ text input {
     display: none;
 }
 
+.how {
+    color: darkorange;
+    font-size: 30px;
+}
+
 .ph {
     color: turquoise;
 }
