@@ -4,6 +4,8 @@ function Pizza(size, toppings, crust, total, orderNo) {
     this.crust = crust
     this.total = total;
     this.orderNo = orderNo;
+
+
 }
 $(document).ready(function() {
     $('.more p').hide();
@@ -41,6 +43,7 @@ $(document).ready(function() {
     });
 
 
+
     $('#order').click(function() {
         var sizeOfPizza = $(".size option:selected").val();
         var toppingsOfPizza = $(".toppings option:selected").val();
@@ -48,6 +51,14 @@ $(document).ready(function() {
         var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
         var order = 1;
         var grandTotal = 0;
+
+        let totalpizza = [];
+        grandTotal = total + pizza;
+        $.each($("input[name='pizza']:selected"), function() {
+            pizzaselected.push($(this).val());
+            $("#add-pizza").append(newRow);
+        });
+
 
         $("table").show();
         $(".sec-two").hide();
@@ -63,6 +74,7 @@ $(document).ready(function() {
             $("#check-out").hide();
             $(".pay").show();
         });
+
 
         $("#no").click(function() {
             $(".alert").show();
